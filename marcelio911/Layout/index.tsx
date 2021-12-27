@@ -1,19 +1,18 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Layout.module.css";
 import LogRocket from "logrocket";
 import React, { useEffect, useState } from "react";
 import { Provider as StyletronProvider } from "styletron-react";
 import { BaseProvider, LightTheme, useStyletron } from "baseui";
-import MaHeader from "../marcelio911/Header";
+import MaHeader from "../Header";
 import { Button } from "baseui/button";
 import { v4 as uuidv4 } from "uuid";
 import Link from "next/link";
-import Layout from "../marcelio911/Layout";
 LogRocket.init("ougvmi/rifaonline");
 
-const Home: NextPage = () => {
+const Layout: NextPage = ({children}) => {
   const [engine, setEngine] = useState<any>(null);
   const [css, theme] = useStyletron();
   const [id, setId] = useState<any>(null);
@@ -37,22 +36,36 @@ const Home: NextPage = () => {
   if (!engine) return null;
 
   return (
-    <Layout>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Organize sua RIFA ONLINE de forma simples e fácil
-        </h1>
+    <StyletronProvider value={engine}>
+      <BaseProvider theme={{ ...LightTheme, direction: "rtl" }}>
+        <div className={styles.container}>
+          <MaHeader></MaHeader>
 
-        <p className={styles.description}></p>
+          <main className={styles.main}>
+          { children }
+          </main>
 
-        <div className={styles.grid}>
-          <Link href={`/cartelas/${id}`}>
-            <Button onClick={() => {}}>Gerador de cartela</Button>
-          </Link>
+          <footer className={styles.footer}>
+            <a
+              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Powered by{" "}
+              <span className={styles.logo}>
+                <Image
+                  src="/vercel.svg"
+                  alt="Vercel Logo"
+                  width={72}
+                  height={16}
+                />
+              </span>
+            </a>
+          </footer>
         </div>
-      </main>
-    </Layout>
+      </BaseProvider>
+    </StyletronProvider>
   );
 };
 
-export default Home;
+export default Layout;

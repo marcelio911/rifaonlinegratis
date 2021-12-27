@@ -1,0 +1,9 @@
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+#header .logo {
+  position: relative;
+}

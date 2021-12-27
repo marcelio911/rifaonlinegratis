@@ -50,7 +50,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.16.3":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.7":
   version "7.16.5"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/@babel/runtime/-/runtime-7.16.5.tgz#7f3e34bf8bdbbadf03fbb7b1ea0d929569c9487a"
   integrity sha1-fz40v4vbut8D+7ex6g2SlWnJSHo=
@@ -64,6 +64,18 @@
   dependencies:
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
+
+"@date-io/core@^2.11.0":
+  version "2.11.0"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/@date-io/core/-/core-2.11.0.tgz#28580cda1c8228ab2c7ed6aee673ef0495f913e6"
+  integrity sha1-KFgM2hyCKKssftau5nPvBJX5E+Y=
+
+"@date-io/date-fns@^2.6.2":
+  version "2.11.0"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/@date-io/date-fns/-/date-fns-2.11.0.tgz#142fbf954eda7ad66514af7a2802d78c4ea40053"
+  integrity sha1-FC+/lU7aetZlFK96KALXjE6kAFM=
+  dependencies:
+    "@date-io/core" "^2.11.0"
 
 "@eslint/eslintrc@^1.0.5":
   version "1.0.5"
@@ -234,6 +246,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@rtsao/csstype@2.6.5-forked.0":
+  version "2.6.5-forked.0"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/@rtsao/csstype/-/csstype-2.6.5-forked.0.tgz#b5b4e2a07ad83a91874ebf5fabdb73dc8c1632f6"
+  integrity sha1-tbTioHrYOpGHTr9fq9tz3IwWMvY=
+
 "@rushstack/eslint-patch@^1.0.8":
   version "1.1.0"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/@rushstack/eslint-patch/-/eslint-patch-1.1.0.tgz#7f698254aadf921e48dda8c0a6b304026b8a9323"
@@ -254,7 +271,7 @@
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha1-/PcgXCXf95Xuea8eMNosl5CAjxE=
 
-"@types/react@17.0.38":
+"@types/react@*", "@types/react@17.0.38":
   version "17.0.38"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/@types/react/-/react-17.0.38.tgz#f24249fefd89357d5fa71f739a686b8d7c7202bd"
   integrity sha1-8kJJ/v2JNX1fpx9zmmhrjXxyAr0=
@@ -267,6 +284,33 @@
   version "0.16.2"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha1-GmL4lSVyPd4kuhsBsJK/XfitTTk=
+
+"@types/styletron-engine-atomic@^1.1.1":
+  version "1.1.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/@types/styletron-engine-atomic/-/styletron-engine-atomic-1.1.1.tgz#032dabd5ccea1b8601521ad38616a7a9f0af5404"
+  integrity sha1-Ay2r1czqG4YBUhrThhanqfCvVAQ=
+  dependencies:
+    "@types/styletron-standard" "*"
+
+"@types/styletron-react@^5.0.3":
+  version "5.0.3"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/@types/styletron-react/-/styletron-react-5.0.3.tgz#54d6e9acefb692355b35132b9f5276cc5cac00f6"
+  integrity sha1-VNbprO+2kjVbNRMrn1J2zFysAPY=
+  dependencies:
+    "@types/react" "*"
+    "@types/styletron-standard" "*"
+
+"@types/styletron-standard@*", "@types/styletron-standard@^2.0.2":
+  version "2.0.2"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/@types/styletron-standard/-/styletron-standard-2.0.2.tgz#1e4f1977555e0b4612af0f5f420e8c777640b124"
+  integrity sha1-Hk8Zd1VeC0YSrw9fQg6Md3ZAsSQ=
+  dependencies:
+    csstype "^3.0.2"
+
+"@types/uuid@^8.3.3":
+  version "8.3.3"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/@types/uuid/-/uuid-8.3.3.tgz#c6a60686d953dbd1b1d45e66f4ecdbd5d471b4d0"
+  integrity sha1-xqYGhtlT29Gx1F5m9Ozb1dRxtNA=
 
 "@typescript-eslint/parser@^5.0.0":
   version "5.8.0"
@@ -446,6 +490,13 @@ ast-types-flow@^0.0.7:
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/ast-types-flow/-/ast-types-flow-0.0.7.tgz#f70b735c6bca1a5c9c22d982c3e39e7feba3bdad"
   integrity sha1-9wtzXGvKGlycItmCw+Oef+ujva0=
 
+attr-accept@^1.1.3:
+  version "1.1.3"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/attr-accept/-/attr-accept-1.1.3.tgz#48230c79f93790ef2775fcec4f0db0f5db41ca52"
+  integrity sha1-SCMMefk3kO8ndfzsTw2w9dtBylI=
+  dependencies:
+    core-js "^2.5.0"
+
 available-typed-arrays@^1.0.5:
   version "1.0.5"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
@@ -470,6 +521,33 @@ base64-js@^1.0.2:
   version "1.5.1"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha1-GxtEAWClv3rUC2UPCVljSBkDkwo=
+
+baseui@^10.6.0:
+  version "10.6.0"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/baseui/-/baseui-10.6.0.tgz#08c5dcb695dbbae3c8e241f851473d58d5adf1a7"
+  integrity sha1-CMXctpXbuuPI4kH4UUc9WNWt8ac=
+  dependencies:
+    "@date-io/date-fns" "^2.6.2"
+    card-validator "^6.2.0"
+    date-fns "^2.6.0"
+    glob "^7.1.6"
+    just-extend "^4.0.2"
+    memoize-one "^5.1.1"
+    polished "^3.2.0"
+    popper.js "^1.16.0"
+    react-dropzone "^9.0.0"
+    react-focus-lock "^2.2.1"
+    react-input-mask "^2.0.4"
+    react-is "^16.8.6"
+    react-movable "^2.5.4"
+    react-multi-ref "^1.0.0"
+    react-range "^1.8.0"
+    react-uid "^2.3.0"
+    react-virtualized "^9.21.1"
+    react-virtualized-auto-sizer "^1.0.2"
+    react-window "^1.8.5"
+    resize-observer-polyfill "^1.5.1"
+    timezone-support "^2.0.2"
 
 big.js@^5.2.2:
   version "5.2.2"
@@ -624,6 +702,13 @@ caniuse-lite@^1.0.30001202, caniuse-lite@^1.0.30001219, caniuse-lite@^1.0.300012
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/caniuse-lite/-/caniuse-lite-1.0.30001292.tgz#4a55f61c06abc9595965cfd77897dc7bc1cdc456"
   integrity sha1-SlX2HAaryVlZZc/XeJfce8HNxFY=
 
+card-validator@^6.2.0:
+  version "6.2.0"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/card-validator/-/card-validator-6.2.0.tgz#59037c6480df5786473cab720f165ba868560e0b"
+  integrity sha1-WQN8ZIDfV4ZHPKtyDxZbqGhWDgs=
+  dependencies:
+    credit-card-type "^8.0.0"
+
 chalk@2.4.2, chalk@^2.0.0:
   version "2.4.2"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
@@ -677,6 +762,11 @@ classnames@2.2.6:
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha1-Q5Nb/90pHzJtrQogUwmzjQD2UM4=
 
+clsx@^1.0.4:
+  version "1.1.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
+  integrity sha1-mLMTT5q73yOyZjSRrOE8XAOnMYg=
+
 color-convert@^1.9.0:
   version "1.9.3"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
@@ -706,6 +796,11 @@ colorette@^1.2.2:
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/colorette/-/colorette-1.4.0.tgz#5190fbb87276259a86ad700bff2c6d6faa3fca40"
   integrity sha1-UZD7uHJ2JZqGrXAL/yxtb6o/ykA=
 
+commander@2.20.0:
+  version "2.20.0"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
+  integrity sha1-1YuytcHuj4ew00ACfp6U4iLFpCI=
+
 commondir@^1.0.1:
   version "1.0.1"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
@@ -732,6 +827,11 @@ core-js-pure@^3.19.0:
   version "3.20.1"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/core-js-pure/-/core-js-pure-3.20.1.tgz#f7a2c62f98de83e4da8fca7b78846d3a2f542145"
   integrity sha1-96LGL5jeg+Taj8p7eIRtOi9UIUU=
+
+core-js@^2.5.0:
+  version "2.6.12"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
+  integrity sha1-2TM9+nsGXjR8xWgiGdb2kIWcwuw=
 
 create-ecdh@^4.0.0:
   version "4.0.4"
@@ -764,6 +864,11 @@ create-hmac@^1.1.0, create-hmac@^1.1.4, create-hmac@^1.1.7:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+credit-card-type@^8.0.0:
+  version "8.3.0"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/credit-card-type/-/credit-card-type-8.3.0.tgz#f93c187c9362411544158c91d552efcc443aa87a"
+  integrity sha1-+TwYfJNiQRVEFYyR1VLvzEQ6qHo=
+
 cross-spawn@^7.0.2:
   version "7.0.3"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
@@ -789,6 +894,14 @@ crypto-browserify@3.12.0:
     public-encrypt "^4.0.0"
     randombytes "^2.0.0"
     randomfill "^1.0.3"
+
+css-in-js-utils@^2.0.0:
+  version "2.0.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/css-in-js-utils/-/css-in-js-utils-2.0.1.tgz#3b472b398787291b47cfe3e44fecfdd9e914ba99"
+  integrity sha1-O0crOYeHKRtHz+PkT+z92ekUupk=
+  dependencies:
+    hyphenate-style-name "^1.0.2"
+    isobject "^3.0.1"
 
 css.escape@1.5.1:
   version "1.5.1"
@@ -823,6 +936,11 @@ data-uri-to-buffer@3.0.1:
   version "3.0.1"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/data-uri-to-buffer/-/data-uri-to-buffer-3.0.1.tgz#594b8973938c5bc2c33046535785341abc4f3636"
   integrity sha1-WUuJc5OMW8LDMEZTV4U0GrxPNjY=
+
+date-fns@^2.6.0:
+  version "2.27.0"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/date-fns/-/date-fns-2.27.0.tgz#e1ff3c3ddbbab8a2eaadbb6106be2929a5a2d92b"
+  integrity sha1-4f88Pdu6uKLqrbthBr4pKaWi2Ss=
 
 debug@2, debug@^2.6.9:
   version "2.6.9"
@@ -870,6 +988,11 @@ des.js@^1.0.0:
     inherits "^2.0.1"
     minimalistic-assert "^1.0.0"
 
+detect-node-es@^1.1.0:
+  version "1.1.0"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/detect-node-es/-/detect-node-es-1.1.0.tgz#163acdf643330caa0b4cd7c21e7ee7755d6fa493"
+  integrity sha1-FjrN9kMzDKoLTNfCHn7ndV1vpJM=
+
 diffie-hellman@^5.0.0:
   version "5.0.3"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/diffie-hellman/-/diffie-hellman-5.0.3.tgz#40e8ee98f55a2149607146921c63e1ae5f3d2875"
@@ -899,6 +1022,14 @@ doctrine@^3.0.0:
   integrity sha1-rd6+rXKmV023g2OdyHoSF3OXOWE=
   dependencies:
     esutils "^2.0.2"
+
+dom-helpers@^5.1.3:
+  version "5.2.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/dom-helpers/-/dom-helpers-5.2.1.tgz#d9400536b2bf8225ad98fe052e029451ac40e902"
+  integrity sha1-2UAFNrK/giWtmP4FLgKUUaxA6QI=
+  dependencies:
+    "@babel/runtime" "^7.8.7"
+    csstype "^3.0.2"
 
 domain-browser@4.19.0:
   version "4.19.0"
@@ -1267,6 +1398,13 @@ file-entry-cache@^6.0.1:
   dependencies:
     flat-cache "^3.0.4"
 
+file-selector@^0.1.8:
+  version "0.1.19"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/file-selector/-/file-selector-0.1.19.tgz#8ecc9d069a6f544f2e4a096b64a8052e70ec8abf"
+  integrity sha1-jsydBppvVE8uSglrZKgFLnDsir8=
+  dependencies:
+    tslib "^2.0.1"
+
 fill-range@^7.0.1:
   version "7.0.1"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/fill-range/-/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
@@ -1310,6 +1448,13 @@ flatted@^3.1.0:
   version "3.2.4"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/flatted/-/flatted-3.2.4.tgz#28d9969ea90661b5134259f312ab6aa7929ac5e2"
   integrity sha1-KNmWnqkGYbUTQlnzEqtqp5KaxeI=
+
+focus-lock@^0.10.1:
+  version "0.10.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/focus-lock/-/focus-lock-0.10.1.tgz#5f46fa74fefb87144479c2f8e276f0eedd8081b2"
+  integrity sha1-X0b6dP77hxREecL44nbw7t2AgbI=
+  dependencies:
+    tslib "^2.0.3"
 
 foreach@^2.0.5:
   version "2.0.5"
@@ -1391,7 +1536,7 @@ glob@7.1.7:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@^7.1.3, glob@^7.1.7:
+glob@^7.1.3, glob@^7.1.6, glob@^7.1.7:
   version "7.2.0"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/glob/-/glob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
   integrity sha1-0VU1r3cy4C6Uj0xBYovZECk/YCM=
@@ -1508,6 +1653,11 @@ https-browserify@1.0.0:
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
+hyphenate-style-name@^1.0.2:
+  version "1.0.4"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz#691879af8e220aea5750e8827db4ef62a54e361d"
+  integrity sha1-aRh5r44iCupXUOiCfbTvYqVONh0=
+
 iconv-lite@0.4.24:
   version "0.4.24"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -1570,6 +1720,13 @@ inherits@2, inherits@2.0.4, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, i
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
 
+inline-style-prefixer@^5.1.0:
+  version "5.1.2"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/inline-style-prefixer/-/inline-style-prefixer-5.1.2.tgz#e5a5a3515e25600e016b71e39138971228486c33"
+  integrity sha1-5aWjUV4lYA4Ba3HjkTiXEihIbDM=
+  dependencies:
+    css-in-js-utils "^2.0.0"
+
 internal-slot@^1.0.3:
   version "1.0.3"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/internal-slot/-/internal-slot-1.0.3.tgz#7347e307deeea2faac2ac6205d4bc7d34967f59c"
@@ -1578,6 +1735,13 @@ internal-slot@^1.0.3:
     get-intrinsic "^1.1.0"
     has "^1.0.3"
     side-channel "^1.0.4"
+
+invariant@^2.2.4:
+  version "2.2.4"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
+  integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
+  dependencies:
+    loose-envify "^1.0.0"
 
 is-arguments@^1.0.4:
   version "1.1.1"
@@ -1722,6 +1886,11 @@ isexe@^2.0.0:
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
+isobject@^3.0.1:
+  version "3.0.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+  integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+
 jest-worker@27.0.0-next.5:
   version "27.0.0-next.5"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/jest-worker/-/jest-worker-27.0.0-next.5.tgz#5985ee29b12a4e191f4aae4bb73b97971d86ec28"
@@ -1767,6 +1936,11 @@ json5@^1.0.1:
   dependencies:
     array-includes "^3.1.3"
     object.assign "^4.1.2"
+
+just-extend@^4.0.2:
+  version "4.2.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/just-extend/-/just-extend-4.2.1.tgz#ef5e589afb61e5d66b24eca749409a8939a8c744"
+  integrity sha1-715Ymvth5dZrJOynSUCaiTmox0Q=
 
 language-subtag-registry@~0.3.2:
   version "0.3.21"
@@ -1822,7 +1996,7 @@ lodash.sortby@^4.7.0:
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -1851,6 +2025,11 @@ md5.js@^1.3.4:
     hash-base "^3.0.0"
     inherits "^2.0.1"
     safe-buffer "^5.1.2"
+
+"memoize-one@>=3.1.1 <6", memoize-one@^5.1.1:
+  version "5.2.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/memoize-one/-/memoize-one-5.2.1.tgz#8337aa3c4335581839ec01c3d594090cebe8f00e"
+  integrity sha1-gzeqPEM1WBg57AHD1ZQJDOvo8A4=
 
 merge-stream@^2.0.0:
   version "2.0.0"
@@ -2249,6 +2428,18 @@ platform@1.3.6:
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/platform/-/platform-1.3.6.tgz#48b4ce983164b209c2d45a107adb31f473a6e7a7"
   integrity sha1-SLTOmDFksgnC1FoQetsx9HOm56c=
 
+polished@^3.2.0:
+  version "3.7.2"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/polished/-/polished-3.7.2.tgz#ec5ddc17a7d322a574d5e10ddd2a6f01d3e767d1"
+  integrity sha1-7F3cF6fTIqV01eEN3SpvAdPnZ9E=
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+
+popper.js@^1.16.0:
+  version "1.16.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
+  integrity sha1-KiI8s9x7YhPXQOQDcr5A3kPmWxs=
+
 postcss@8.2.15:
   version "8.4.5"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/postcss/-/postcss-8.4.5.tgz#bae665764dfd4c6fcc24dc0fdf7e7aa00cc77f95"
@@ -2273,7 +2464,15 @@ progress@^2.0.0:
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha1-foz42PW48jnBvGi+tOt4Vn1XLvg=
 
-prop-types@^15.7.2:
+prop-types-extra@^1.1.0:
+  version "1.1.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/prop-types-extra/-/prop-types-extra-1.1.1.tgz#58c3b74cbfbb95d304625975aa2f0848329a010b"
+  integrity sha1-WMO3TL+7ldMEYll1qi8ISDKaAQs=
+  dependencies:
+    react-is "^16.3.2"
+    warning "^4.0.0"
+
+prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.8.0"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/prop-types/-/prop-types-15.8.0.tgz#d237e624c45a9846e469f5f31117f970017ff588"
   integrity sha1-0jfmJMRamEbkafXzERf5cAF/9Yg=
@@ -2341,6 +2540,13 @@ raw-body@2.4.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-clientside-effect@^1.2.5:
+  version "1.2.5"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-clientside-effect/-/react-clientside-effect-1.2.5.tgz#e2c4dc3c9ee109f642fac4f5b6e9bf5bcd2219a3"
+  integrity sha1-4sTcPJ7hCfZC+sT1tum/W80iGaM=
+  dependencies:
+    "@babel/runtime" "^7.12.13"
+
 react-dom@17.0.2:
   version "17.0.2"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
@@ -2350,20 +2556,104 @@ react-dom@17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
+react-dropzone@^9.0.0:
+  version "9.0.0"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-dropzone/-/react-dropzone-9.0.0.tgz#4f5223cdcb4d3bd8a66e3298c4041eb0c75c4634"
+  integrity sha1-T1IjzctNO9imbjKYxAQesMdcRjQ=
+  dependencies:
+    attr-accept "^1.1.3"
+    file-selector "^0.1.8"
+    prop-types "^15.6.2"
+    prop-types-extra "^1.1.0"
+
+react-focus-lock@^2.2.1:
+  version "2.7.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-focus-lock/-/react-focus-lock-2.7.1.tgz#a9fbb3fa4efaee32162406e5eb96ae658964193b"
+  integrity sha1-qfuz+k767jIWJAbl65auZYlkGTs=
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    focus-lock "^0.10.1"
+    prop-types "^15.6.2"
+    react-clientside-effect "^1.2.5"
+    use-callback-ref "^1.2.5"
+    use-sidecar "^1.0.5"
+
+react-input-mask@^2.0.4:
+  version "2.0.4"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-input-mask/-/react-input-mask-2.0.4.tgz#9ade5cf8196f4a856dbf010820fe75a795f3eb14"
+  integrity sha1-mt5c+BlvSoVtvwEIIP51p5Xz6xQ=
+  dependencies:
+    invariant "^2.2.4"
+    warning "^4.0.2"
+
 react-is@17.0.2:
   version "17.0.2"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA=
 
-react-is@^16.13.1:
+react-is@^16.13.1, react-is@^16.3.2, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
+
+react-lifecycles-compat@^3.0.4:
+  version "3.0.4"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+  integrity sha1-TxonOv38jzSIqMUWv9p4+HI1I2I=
+
+react-movable@^2.5.4:
+  version "2.5.4"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-movable/-/react-movable-2.5.4.tgz#1c28e8291476ab19b8625d06b60f97a89dd85a45"
+  integrity sha1-HCjoKRR2qxm4Yl0Gtg+XqJ3YWkU=
+
+react-multi-ref@^1.0.0:
+  version "1.0.0"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-multi-ref/-/react-multi-ref-1.0.0.tgz#6075731f82666ce9b59fa1a2763e8bb534202e7e"
+  integrity sha1-YHVzH4JmbOm1n6Gidj6LtTQgLn4=
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+
+react-range@^1.8.0:
+  version "1.8.11"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-range/-/react-range-1.8.11.tgz#7d9ae1e4a263108566897acee2dde8d5b78901e1"
+  integrity sha1-fZrh5KJjEIVmiXrO4t3o1beJAeE=
 
 react-refresh@0.8.3:
   version "0.8.3"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha1-ch1GV2ctQAxePHXQY8SoX7LV1o8=
+
+react-uid@^2.3.0:
+  version "2.3.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-uid/-/react-uid-2.3.1.tgz#22a75d4a948a4824b9b8078cbf864d55d91ca4be"
+  integrity sha1-IqddSpSKSCS5uAeMv4ZNVdkcpL4=
+  dependencies:
+    tslib "^1.10.0"
+
+react-virtualized-auto-sizer@^1.0.2:
+  version "1.0.6"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-virtualized-auto-sizer/-/react-virtualized-auto-sizer-1.0.6.tgz#66c5b1c9278064c5ef1699ed40a29c11518f97ca"
+  integrity sha1-ZsWxySeAZMXvFpntQKKcEVGPl8o=
+
+react-virtualized@^9.21.1:
+  version "9.22.3"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-virtualized/-/react-virtualized-9.22.3.tgz#f430f16beb0a42db420dbd4d340403c0de334421"
+  integrity sha1-9DDxa+sKQttCDb1NNAQDwN4zRCE=
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+    clsx "^1.0.4"
+    dom-helpers "^5.1.3"
+    loose-envify "^1.4.0"
+    prop-types "^15.7.2"
+    react-lifecycles-compat "^3.0.4"
+
+react-window@^1.8.5:
+  version "1.8.6"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/react-window/-/react-window-1.8.6.tgz#d011950ac643a994118632665aad0c6382e2a112"
+  integrity sha1-0BGVCsZDqZQRhjJmWq0MY4LioRI=
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    memoize-one ">=3.1.1 <6"
 
 react@17.0.2:
   version "17.0.2"
@@ -2411,6 +2701,11 @@ regexpp@^3.2.0:
   version "3.2.0"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/regexpp/-/regexpp-3.2.0.tgz#0425a2768d8f23bad70ca4b90461fa2f1213e1b2"
   integrity sha1-BCWido2PI7rXDKS5BGH6LxIT4bI=
+
+resize-observer-polyfill@^1.5.1:
+  version "1.5.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha1-DpAg3T0hAkRY1OvSfiPkAmmBBGQ=
 
 resolve-from@^4.0.0:
   version "4.0.0"
@@ -2671,6 +2966,30 @@ styled-jsx@5.0.0-beta.3:
     stylis "3.5.4"
     stylis-rule-sheet "0.0.10"
 
+styletron-engine-atomic@^1.4.8:
+  version "1.4.8"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/styletron-engine-atomic/-/styletron-engine-atomic-1.4.8.tgz#3cab053e6d8e930fc2cd3f36dfbda1e9da8576ae"
+  integrity sha1-PKsFPm2Okw/CzT82372h6dqFdq4=
+  dependencies:
+    inline-style-prefixer "^5.1.0"
+    styletron-standard "^3.0.5"
+
+styletron-react@^6.0.2:
+  version "6.0.2"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/styletron-react/-/styletron-react-6.0.2.tgz#c45cb7c1860176b0adcea61c1f081256e522e811"
+  integrity sha1-xFy3wYYBdrCtzqYcHwgSVuUi6BE=
+  dependencies:
+    prop-types "^15.6.0"
+    styletron-standard "^3.0.5"
+
+styletron-standard@^3.0.5:
+  version "3.0.5"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/styletron-standard/-/styletron-standard-3.0.5.tgz#35dd4a584d668ef73b145988cdbece69a1e39085"
+  integrity sha1-Nd1KWE1mjvc7FFmIzb7OaaHjkIU=
+  dependencies:
+    "@rtsao/csstype" "2.6.5-forked.0"
+    inline-style-prefixer "^5.1.0"
+
 stylis-rule-sheet@0.0.10:
   version "0.0.10"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/stylis-rule-sheet/-/stylis-rule-sheet-0.0.10.tgz#44e64a2b076643f4b52e5ff71efc04d8c3c4a430"
@@ -2714,6 +3033,13 @@ timers-browserify@2.0.12:
   dependencies:
     setimmediate "^1.0.4"
 
+timezone-support@^2.0.2:
+  version "2.0.2"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/timezone-support/-/timezone-support-2.0.2.tgz#801d6924478b1b60f09b90699ce1127a6044cbe7"
+  integrity sha1-gB1pJEeLG2Dwm5BpnOESemBEy+c=
+  dependencies:
+    commander "2.20.0"
+
 to-fast-properties@^2.0.0:
   version "2.0.0"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
@@ -2748,10 +3074,15 @@ tsconfig-paths@^3.11.0, tsconfig-paths@^3.9.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@^1.8.1:
+tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.3:
   version "1.14.1"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
+
+tslib@^2.0.1, tslib@^2.0.3:
+  version "2.3.1"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha1-6KM1rdXOrlGqJh0ypJAVjvBC7wE=
 
 tsutils@^3.21.0:
   version "3.21.0"
@@ -2809,6 +3140,19 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
+use-callback-ref@^1.2.5:
+  version "1.2.5"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/use-callback-ref/-/use-callback-ref-1.2.5.tgz#6115ed242cfbaed5915499c0a9842ca2912f38a5"
+  integrity sha1-YRXtJCz7rtWRVJnAqYQsopEvOKU=
+
+use-sidecar@^1.0.5:
+  version "1.0.5"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/use-sidecar/-/use-sidecar-1.0.5.tgz#ffff2a17c1df42e348624b699ba6e5c220527f2b"
+  integrity sha1-//8qF8HfQuNIYktpm6blwiBSfys=
+  dependencies:
+    detect-node-es "^1.1.0"
+    tslib "^1.9.3"
+
 use-subscription@1.5.1:
   version "1.5.1"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/use-subscription/-/use-subscription-1.5.1.tgz#73501107f02fad84c6dd57965beb0b75c68c42d1"
@@ -2833,6 +3177,11 @@ util@0.12.4, util@^0.12.0:
     safe-buffer "^5.1.2"
     which-typed-array "^1.1.2"
 
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha1-gNW1ztJxu5r2xEXyGhoExgbO++I=
+
 v8-compile-cache@^2.0.3:
   version "2.3.0"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
@@ -2842,6 +3191,13 @@ vm-browserify@1.1.2:
   version "1.1.2"
   resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
+
+warning@^4.0.0, warning@^4.0.2:
+  version "4.0.3"
+  resolved "https://pkgs.dev.azure.com/DEVOPS-RCHLO/_packaging/DEVOPS-RCHLO/npm/registry/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  integrity sha1-Fungd+uKhtavfWSqHgX9hbRnjKM=
+  dependencies:
+    loose-envify "^1.0.0"
 
 watchpack@2.3.0:
   version "2.3.0"
